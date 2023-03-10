@@ -1,5 +1,5 @@
-var monto = parseInt(prompt("Ingresa el monto a invertir."));
-var meses = parseInt(prompt("Ingresar cantidad de meses a invertir."));
+let monto = parseInt(prompt("Ingresa el monto a invertir."));
+let meses = parseInt(prompt("Ingresar cantidad de meses a invertir."));
 
 if (meses <= 12 && meses > 0){
     alert("El interés anual es de 60%");
